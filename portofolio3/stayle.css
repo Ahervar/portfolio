@@ -156,6 +156,8 @@ header {
   padding: 10px 10px;
   cursor: pointer;
   transition: 0.4s;
+  text-decoration: none;
+  color: #000;
 }
 
 .btn-home2:hover{
@@ -982,7 +984,14 @@ hr {
   .btn-home1, .btn-home2, .btn, .btn-send {
     width: 100%;
     text-align: center;
+    
   }
+  .btn-home2 {
+    width: 87%; 
+    padding: 12px 20px; 
+    font-size: 16px; 
+}
+  
   
   .follow {
     display: flex; /* Keep it as flex */
